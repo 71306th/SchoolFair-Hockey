@@ -8,7 +8,6 @@ import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
 import com.revrobotics.CANSparkMax;
 import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
-import edu.wpi.first.wpilibj2.command.CommandBase;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants;
 
@@ -41,12 +40,15 @@ public class HockeySubsystem extends SubsystemBase {
   public void P1Hori(double speed){
     p1horizontal.set(speed*Constants.HockeyConstants.player1horizontalregulator);
   }
+
   public void P2Hori(double speed){
     p2horizontal.set(speed*Constants.HockeyConstants.player2horizontalregulator);
   }
+
   public void P1Verti(double speed){
     p1vertical.set(speed*Constants.HockeyConstants.player1verticalregulator);
   }
+
   public void P2Verti(double speed){
     p2vertical.set(speed*Constants.HockeyConstants.player2verticalregulator);
   }

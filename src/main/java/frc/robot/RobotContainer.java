@@ -7,8 +7,6 @@ package frc.robot;
 import frc.robot.commands.HockeyControl;
 import frc.robot.subsystems.HockeySubsystem;
 import edu.wpi.first.wpilibj2.command.Command;
-import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
-import edu.wpi.first.wpilibj2.command.button.Trigger;
 
 
 public class RobotContainer {
